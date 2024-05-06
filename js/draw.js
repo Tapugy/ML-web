@@ -14,9 +14,9 @@ draw.path=(ctx,path,color="black")=>{
 }
 
 draw.paths=(ctx,paths,colors=["black"]) => {
-    index = 0
+    indexc = 0
     for(const path of paths){
-        draw.path(ctx,path,colors[index]);
-        index++;
+        draw.path(ctx,path,colors[indexc]);
+        indexc++;
     }
 }
